@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jules - Traditional Bakery</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        header {
+            background-color: rgb(255, 255, 255);
+            padding: 1px;
+            text-align: center;
+            font-size: 16px;
+            color: white;
+        }
+
+        a:link {
+            font-size:18px;
+            color:#FFFFFF;
+            text-decoration: none;
+        }
+
+        a:visited {
+            font-size:18px;
+            color:#FFFFFF;
+            text-decoration: none;
+        }
+
+        a:active {
+            font-size:18px;
+            color:#FFFFFF;
+            text-decoration: none;
+        }
+
+        a:hover {
+            font-size:18px;
+            color:#FFFFFF;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        f1{
+            font-family:monospace;
+            font-size: 22px;
+            font-weight: bold;
+        }
+
+        f2{
+            font-family:monospace;
+            font-size: 12px;
+            font-weight: bold;
+        }
+
+        h1{
+            color: #8A2D32;
+            text-align: center;
+            font-size: 24px;
+        }
+
+        h2{
+            color: #8A2D32;
+            text-align: center;
+            font-size: 18px;
+        }
+
+        h3{
+            color: #160a0b;
+            text-align: center;
+            font-size: 14px;
+        }
+
+        nav { 
+            width: 100%;
+            height: 32px;
+            background: #8A2D32;
+            padding: 4px;
+            text-align: center;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            align-content: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        article {
+            float: left;
+            padding: 2px;
+            width: 100%;
+            background-color: #ffffff;
+            height: 300px;
+            text-align: center;
+            position: relative;
+        }
+
+        section::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        footer {
+            background-color: #8A2D32;
+            padding: 2px;
+            text-align: center;
+            color: white;
+            position: relative;
+        }
+
+        @media (max-width: 600px) {
+            nav,
+            article {
+                width: 100%;
+                height: auto;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <img src="logo.png" alt="Logo 1999 Jules Traditional Bakery" width="250px" height="250px">
+    </header>
+
+    <section>
+        <nav>
+            <a href="index.html">Inicio</a> 
+            <a href="realizarPedido.html">Realizar pedido</a> 
+            <a href="pedidos.html">Pedidos</a> 
+            <a href="acercaDe.html">Acerca de</a> 
+        </nav>
+
+        <article>
+            <h1>Realizar pedido</h1>
+            <h3>Por favor, llena el siguiente formulario para iniciar tu pedido :-)</p>
+            Nombre: <input type="text" id="Input1" name="nombre"></p>
+            Teléfono: <input type="text" id="Input1" name="telefono"></p>
+            Correo electrónico: <input type="text" id="Input1" name="email"></p>
+            Descripción del pedido: <input type="text" id="Input1" name="descripcion"></p>
+            Sabor: <input type="text" id="Input1" name="sabor"></p>
+            Decoración:<input type="text" id="Input1" name="decoracion"></p>
+            </h3>
+        </article>
+    </section>
+
+    <footer>
+        <f1>JULES</f1></br>
+        <f2>TRADITIONAL BAKERY</f2>
+    </footer>
+
+</body>
+
+</html>
